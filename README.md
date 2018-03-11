@@ -1,7 +1,7 @@
 # Linked-lists
 
 Two vanila js, heavy tested, libraries to manage :
-* linked lists
+* (doubly) linked lists
 * circular linked-lists (head is linked to the tail and vice-versa)
 
 
@@ -95,6 +95,7 @@ npm run test
 ````
 
 ## Build
+Push source files in ./lib
 ```
 npm run build
 ````
