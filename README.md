@@ -92,7 +92,7 @@ Run tests :
 ```
 npm install
 npm run test
-````
+```
 
 ## Build
 Push source files in ./lib
