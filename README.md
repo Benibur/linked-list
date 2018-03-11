@@ -95,7 +95,9 @@ npm run test
 ```
 
 ## Build
+
 Push source files in ./lib
+
 ```
 npm run build
 ````
