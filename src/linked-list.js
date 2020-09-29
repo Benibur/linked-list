@@ -1,13 +1,17 @@
 
 /*
 
-       head node
+https://github.com/Benibur/linked-list
+
+       head node   (prepend)
            A
 node.next  |     |  node.prev
                 V
-            tail node
+            tail node  (append)
+
+
  */
-// var DoublyLinkedList
+
 
 module.exports = (function () {
   /*
@@ -39,7 +43,7 @@ module.exports = (function () {
   }
 
   /*
-   * Appends a node to the end of the list.
+   * Appends a node to the end of the list, after the tail.
    */
   DoublyLinkedList.prototype.append = function (data) {
     var node
@@ -60,7 +64,7 @@ module.exports = (function () {
   }
 
   /*
-   * Prepends a node to the start of the list.
+   * Prepends a node to the start of the list, before the head.
    */
 
   DoublyLinkedList.prototype.prepend = function (data) {
