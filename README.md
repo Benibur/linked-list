@@ -27,11 +27,12 @@ See in ./test/ for more exemples
 ## API :
 
 * `DoublyLinkedList.append(data)`
-  * Appends a node to the end of the list. `data` can be a pointer to anything (object, string, integer...)
+  * Appends a node to the end of the list, after its tail.
+  * `data` can be a pointer to anything (object, string, integer...)
   * returns the created node
 
 * `DoublyLinkedList.prepend(data)`
-  * Prepends a node to the start of the list.
+  * Prepends a node to the start of the list, before its head.
   * returns the created node
 
 * `DoublyLinkedList.insert(rank, data)`
